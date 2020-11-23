@@ -27,6 +27,12 @@
     <script type="module" src="cmp/mi-footer.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <style>
+      .padre {
+        width: 50%;
+        background-color: rgb(194, 228, 0);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
       .verde {
       color: #ff0101 
     }
@@ -76,7 +82,7 @@ document.getElementById("leyenda").value=leyenda;
 <!--enmarcamos el formulario-->
 <fieldset>
 <!--le damos un nombre al marco-->
-<legend class="daniel">CALCULO DEL PESO IDEAL IMC (Indice de Masa Corporal) Creado por Daniel</legend>
+<legend class="daniel" class="padre">CALCULO DEL PESO IDEAL IMC (Indice de Masa Corporal) Creado por Daniel</legend>
  <p class="azule"> Ingresar Peso en kg:
  <!--definimos una caja donde introducir el dato del peso-->
  <input type="text" name="peso" id="peso" size="3" maxlength="4">
